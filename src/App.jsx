@@ -228,7 +228,7 @@ function AustauschView() {
       },
     ]);
     if (insertError) {
-      setError("Beitrag konnte nicht gespeichert werden. Bitte nochmal versuchen.");
+      setError("Fehler: " + insertError.message);
       setSending(false);
       return;
     }
