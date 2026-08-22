@@ -250,7 +250,7 @@ function AustauschView() {
         <div className="form-row">
           <input
             className="input"
-            placeholder="Name (optional, sonst „Anonym")"
+            placeholder="Name (optional, sonst Anonym)"
             value={nickname}
             maxLength={30}
             onChange={(e) => setNickname(e.target.value)}
